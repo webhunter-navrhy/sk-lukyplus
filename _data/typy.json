@@ -1,0 +1,37 @@
+[
+  {
+    "id": "drevene",
+    "nazev": "Drevené schody",
+    "popis": "Klasické drevené schody s drevenými alebo kovanými zábradliami.",
+    "alt": "Drevené schodisko so zábradlím",
+    "fotky": 8
+  },
+  {
+    "id": "sklo",
+    "nazev": "Drevo s kovom a sklom",
+    "popis": "Klasické drevené schody s kovovým alebo sklenenou výplňou zábradlia.",
+    "alt": "Drevené schodisko s kovovým alebo sklenenym zábradlím",
+    "fotky": 8
+  },
+  {
+    "id": "nosne",
+    "nazev": "Nosná konštrukcia z kovu",
+    "popis": "Samonosné schody s nosnou konštrukciou z kovu alebo preglejky.",
+    "alt": "Schodisko s nosnou konštrukciou z kovu",
+    "fotky": 8
+  },
+  {
+    "id": "vretenove",
+    "nazev": "Vretenové",
+    "popis": "Točité vretenové schodiská do menšieho pôdorysu.",
+    "alt": "Vretenové schodisko",
+    "fotky": 6
+  },
+  {
+    "id": "obklady",
+    "nazev": "Obklady schodísk",
+    "popis": "Obklad existujúceho betónového schodiska drevom alebo iným materiálom.",
+    "alt": "Obložené schodisko",
+    "fotky": 8
+  }
+]

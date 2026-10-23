@@ -1,0 +1,51 @@
+{
+  "slug": "sk-lukyplus",
+  "nazev": "LUKY PLUS, spol. s r.o.",
+  "url": "https://webhunter-navrhy.github.io/sk-lukyplus/",
+  "base": "/sk-lukyplus/",
+  "lang": "sk",
+  "popis": "Výroba schodov na mieru: samonosné a drevené schodiská, obklady schodísk, zábradlia. Budmerice, montáž na mieste.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "hero.jpg",
+  "logo": "logo.png",
+  "theme_color": "#9eb92c",
+  "typ": "LocalBusiness",
+  "ico": "34096663",
+  "kontakt": {
+    "email": "schody@lukyplus.sk",
+    "telefon": "0902 902 600",
+    "adresa": {
+      "ulice": "",
+      "psc": "900 86",
+      "mesto": "Budmerice",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Kalkulácia schodiska z webu"
+  },
+  "nav": [
+    {
+      "text": "Typy schodov",
+      "href": "#typy"
+    },
+    {
+      "text": "Postup",
+      "href": "#postup"
+    },
+    {
+      "text": "Kalkulácia",
+      "href": "#kalkulacia"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

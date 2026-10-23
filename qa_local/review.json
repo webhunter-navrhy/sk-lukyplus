@@ -1,0 +1,17 @@
+{
+  "znamka": 8,
+  "slabiny": [
+    "Hlavička na mobilu, buňka 1 (horní okraj stránky): logo je pořád nahoře useknuté, u nápisu „Luky“ chybí horní část písmen. V buňkách 2 až 6 je už celé. Oprava: hlavička musí mít výšku 60 px i ve výchozím stavu před scrollem, kontejner `align-items: center`, logo `max-height: 44px` bez záporného marginu nebo `translateY`, aby bylo celé hned na první obrazovce.",
+    "Kotvy sekcí na mobilu, buňka 2: nadpis „Aké schody potrebujete?“ zajíždí pod pevnou hlavičku. Rafael to dřív výslovně odmítl, prvky nesmí zajíždět pod fixní menu. Oprava: sekcím #typy, #postup, #kalkulacia a #kontakt dej `scroll-margin-top` aspoň 76 px, aby po kliknutí v hamburger menu byl nadpis celý pod hlavičkou.",
+    "Formulář Kalkulácia na PC (buňka 4) i na mobilu (buňka 5): popisky polí Meno, E-mail, Telefón, Miesto realizácie a Aké schodisko potrebujete mají asi 11 px a jsou šedé. Vedle velkých polí jsou skoro nečitelné. Oprava: popisky dej na 15 px, řez 600 a tmavou barvu textu, aby měly stejnou váhu jako úvodní odstavec sekce."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Výtky z minulého kola jsou opravené. IČO 34096663 je teď v brief.json doložené výpisem z RPO (sídlo Budmerice, ověřeno 23. 10. 2026). Na mobilu je hamburger s dotykovým cílem aspoň 44 px. Věta o dveřích, zárubních a podlahách je samostatný čitelný řádek se zeleným proužkem vlevo.",
+    "Koncept vychází z oboru: spodní okraj hero fotky je vykrojený do schodů a karty v sekci „Od návrhu po montáž“ stoupají jako schodiště. Nápad je tak vidět i mimo hero.",
+    "Brand sedí: logo Luky plus je vlevo, zelená #9eb92c z loga nese tlačítka i akcenty a všechny fotky jsou skutečné realizace firmy. Filtr Typy schodov s galerií je užitečný a prodejní.",
+    "QA je bez chyb, nic nepřetéká na žádné ze 6 šířek, žádné malé dotykové cíle. Telefon je v hlavičce na PC i na mobilu („Zavolať“) a kontakt s IČO, adresou, telefony a e-mailem je kompletní."
+  ],
+  "verdikt": "Všechny výtky z minulého kola včetně té závažné (IČO) jsou opravené a nová závažná vada není, takže známka stoupá na 8 a návrh se dá poslat klientovi. Předtím ještě dorovnat logo na první obrazovce mobilu, scroll-margin u kotev a čitelnost popisků formuláře.",
+  "_hash": "23f2ae8d4e1bc29f6ddb4331b7f9c69834ce6bab"
+}

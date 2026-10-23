@@ -1,0 +1,222 @@
+{
+  "slug": "sk-lukyplus",
+  "zdroj_url": "https://www.lukyplus.sk",
+  "firma": "LUKY PLUS, spol. s r.o.",
+  "obor": [
+    "stavebnictví a řemesla",
+    "gastro a ubytování"
+  ],
+  "ico": {
+    "hodnota": "34096663",
+    "zdroj": "RPO (api.statistics.sk/rpo/v1/search?identifier=34096663): LUKY PLUS, spol. s r.o., sídlo 900 86 Budmerice 1600, overené 23. 10. 2026; také recipients.csv"
+  },
+  "ares": null,
+  "kontakty": {
+    "emaily": [
+      "20schody@lukyplus.sk",
+      "info@tomasregina.com",
+      "schody@lukyplus.sk"
+    ],
+    "telefony": [
+      "902 902 600",
+      "905 927 295"
+    ],
+    "adresa": "",
+    "socialni_site": []
+  },
+  "logo": {
+    "soubor": "podklady/logo.png",
+    "zdroj": "https://www.lukyplus.sk/wp-content/uploads/2021/12/logo_two_colors-300x203.png",
+    "rozmery": [
+      300,
+      203
+    ]
+  },
+  "barvy": {
+    "css_promenne": {
+      "e-global-color-astglobalcolor0": "#d94948",
+      "e-global-color-astglobalcolor1": "#e93333",
+      "e-global-color-astglobalcolor2": "#011627",
+      "e-global-color-astglobalcolor3": "rgba(1,22,40,0.75)",
+      "e-global-color-astglobalcolor4": "#f9f8f8",
+      "e-global-color-astglobalcolor5": "#ffffff",
+      "e-global-color-astglobalcolor6": "#f2f5f7",
+      "e-global-color-astglobalcolor7": "#424242",
+      "e-global-color-astglobalcolor8": "#000000",
+      "e-global-color-primary": "#6EC1E4",
+      "e-global-color-secondary": "#54595F",
+      "e-global-color-text": "#7A7A7A",
+      "e-global-color-accent": "#61CE70"
+    },
+    "z_css": [
+      "#1863dc",
+      "#61ce70",
+      "#d9534f",
+      "#ff6900",
+      "#ffdd00",
+      "#5bc0de"
+    ],
+    "z_loga": [
+      "#9eb92c"
+    ],
+    "theme_color": null,
+    "doporucene": [
+      "#9eb92c",
+      "#d94948",
+      "#e93333",
+      "#1863dc"
+    ]
+  },
+  "fotky": [
+    {
+      "soubor": "podklady/foto/foto-01.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/IMG_2993-qef4u9ndwzwlbzfoadgpg7o4n8nqgc584j7pxvwdmo.jpg",
+      "sirka": 666,
+      "vyska": 500,
+      "alt": "IMG_2993"
+    },
+    {
+      "soubor": "podklady/foto/foto-02.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/klasicke_kov_sklo_73-pm0m4ku7g8ll6dl3ykhmd7eq3s8u2ytfccphmxxhj4.jpg",
+      "sirka": 667,
+      "vyska": 500,
+      "alt": "schody klasicke kovove sklenene"
+    },
+    {
+      "soubor": "podklady/foto/foto-03.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/kov_pregl_36-plw93d49q3rwqr71rfp6q9w4ai7x0wy4fjez9q09vk.jpg",
+      "sirka": 666,
+      "vyska": 500,
+      "alt": "kov_pregl_36"
+    },
+    {
+      "soubor": "podklady/foto/foto-04.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/klasicke_drev_kov_24-plw91whb3druolbiasy2un6b0xfd1v55kavse86bk0.jpg",
+      "sirka": 666,
+      "vyska": 500,
+      "alt": "klasicke_drev_kov_24"
+    },
+    {
+      "soubor": "podklady/foto/foto-05.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/obklady_28-plw8xn9m5dy445i25gpw27u674ej778wn8jn64hhq8.jpg",
+      "sirka": 667,
+      "vyska": 500,
+      "alt": "schody s obkladom"
+    },
+    {
+      "soubor": "podklady/foto/foto-06.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/obklady_31-plw92v9c493gm5wznpz9wwed06nxynz8130r5gqr5s.jpg",
+      "sirka": 667,
+      "vyska": 500,
+      "alt": "schody s obkladom"
+    },
+    {
+      "soubor": "podklady/foto/foto-07.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/kov_pregl_34-plw93d49q3rwqr71rfp6q9w4ai7x0wy4fjez9q09vk.jpg",
+      "sirka": 666,
+      "vyska": 500,
+      "alt": "kov_pregl_34"
+    },
+    {
+      "soubor": "podklady/foto/foto-08.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/kov_pregl_33-plw93r7ukmb7kwmkh3sl9oc17aaf8di3hh79gvfda8.jpg",
+      "sirka": 667,
+      "vyska": 500,
+      "alt": "kov_pregl_33"
+    },
+    {
+      "soubor": "podklady/foto/foto-09.jpg",
+      "url": "https://www.lukyplus.sk/wp-content/uploads/elementor/thumbs/kov_pregl_28-plw8vrl8hbdgw88d4ngr2owzfdo3szs8dxkom79u68.jpg",
+      "sirka": 666,
+      "vyska": 500,
+      "alt": "kov_pregl_28"
+    }
+  ],
+  "fakta": [
+    {
+      "typ": "h1",
+      "text": "Výroba schodov na mieru",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h3",
+      "text": "navrhnuté pre vás...",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h3",
+      "text": "...vyrobené pre váš domov",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h2",
+      "text": "Našim nosným programom je výroba samonosných schodísk a realizácia obkladov schodísk.",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h3",
+      "text": "Vytvorenie návrhu podľa vašich predstáv",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h3",
+      "text": "Kvalitná ručná výroba podľa návrhu",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h3",
+      "text": "Rýchla a spoľahlivá montáž na mieste",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h3",
+      "text": "Mali by ste záujem o nezáväznú cenovú ponuku?",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h3",
+      "text": "Neváhajte nás kontaktovať!",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h2",
+      "text": "KDE NÁS NÁJDETE?",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "h2",
+      "text": "Contact",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "odstavec",
+      "text": "Dodávame a montujeme tiež interierové dyhované dvere a zárubne. Interiér Vám farebne doladíme kvalitnými laminátovými parketami.",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "odstavec",
+      "text": "Každé schodisko je riešené individuálne podľa stavebných rozmerov a požiadaviek zákazníka. Tieto parametre určujú typ schodiska vhodného do daného priestoru.",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "odstavec",
+      "text": "Luky Plus, s.r.o. 900 86 Budmerice 160000 schody@lukyplus.sk",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "odstavec",
+      "text": "V prípade otázok nás môžete kontaktovať aj pomocou kontaktného formuláru",
+      "zdroj": "https://www.lukyplus.sk/"
+    },
+    {
+      "typ": "odstavec",
+      "text": "Proin gravida nibh auctor aliquet amet anean sollicitudin, lorem quis.",
+      "zdroj": "https://www.lukyplus.sk/"
+    }
+  ],
+  "chybi": [
+    "adresa / provozovna",
+    "potvrzení služeb a ceníku (nic nevymýšlet)"
+  ],
+  "popis_webu": "Luky Plus - výroba schodov na mieru. Každé schodisko je riešené individuálne, podľa stavebných rozmerov a požiadaviek zákazníka. Tieto parametre určujú typ schodiska vhodného do daného priestoru."
+}

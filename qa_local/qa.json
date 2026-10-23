@@ -1,0 +1,69 @@
+{
+  "url": "http://localhost:8765/sk-lukyplus/",
+  "ok": true,
+  "chyby": [],
+  "varovani": [
+    "Web má noindex (u ostrého webu pravděpodobně chyba)"
+  ],
+  "metriky": {
+    "sirky": {
+      "1440": {
+        "scrollWidth": 1440,
+        "pocet_pretekajicich": 0
+      },
+      "1280": {
+        "scrollWidth": 1280,
+        "pocet_pretekajicich": 0
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "pocet_pretekajicich": 0
+      },
+      "820": {
+        "scrollWidth": 820,
+        "pocet_pretekajicich": 0
+      },
+      "390": {
+        "scrollWidth": 390,
+        "pocet_pretekajicich": 0
+      },
+      "360": {
+        "scrollWidth": 360,
+        "pocet_pretekajicich": 0
+      }
+    },
+    "preneseno_PC_MB": 0.64,
+    "nejvetsi_obrazek_PC": {
+      "kB": 63,
+      "url": "http://localhost:8765/sk-lukyplus/logo.png"
+    },
+    "snimku_PC": 4,
+    "preneseno_mobil_MB": 0.83,
+    "nejvetsi_obrazek_mobil": {
+      "kB": 92,
+      "url": "http://localhost:8765/sk-lukyplus/img/vretenove-2-1280.webp"
+    },
+    "snimku_mobil": 6,
+    "seo": {
+      "title": "Schody na mieru – LUKY PLUS, Budmerice",
+      "description": "Výroba schodov na mieru: samonosné a drevené schodiská, obklady schodísk, zábradlia. Budmerice, mont",
+      "lang": "sk",
+      "h1": 1,
+      "jsonld": [
+        true
+      ],
+      "robots": "noindex, nofollow",
+      "og_image": "https://webhunter-navrhy.github.io/sk-lukyplus/og.jpg",
+      "bez_v": [],
+      "canonical": true,
+      "viewport": true
+    },
+    "maly_dotykovy_cil": 0,
+    "font_nadpis": "Bitter",
+    "font_text": "Source Sans 3",
+    "podstranky": {
+      "stranek": 1,
+      "obrazku": 96
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{% extends "_base.html" %}
+{% set titulek = 'Schody na mieru – LUKY PLUS, Budmerice' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  {{ img('hero.jpg', 'Schodisko vyrobené firmou LUKY PLUS', sizes='100vw', cls='hero-obr') }}
+  <div class="wrap">
+    <div class="hero-panel">
+      <p class="stitok">Budmerice · schody na mieru</p>
+      <h1>Schodisko presne do Vášho domu</h1>
+      <p class="perex">Vyrábame drevené a samonosné schodiská, vretenové schody, zábradlia a obklady existujúcich schodov. Od návrhu až po montáž u Vás.</p>
+      <div class="tlacidla">
+        <a class="tlacitko" href="#kalkulacia">Chcem kalkuláciu</a>
+        <a class="tlacitko druhe" href="#typy">Typy schodov</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="typy">
+  <div class="wrap">
+    <h2>Aké schody potrebujete?</h2>
+    <p class="uvod">Vyberte typ a pozrite si realizácie. Každé schodisko riešime podľa rozmerov Vášho priestoru.</p>
+    <div class="zalozky" role="tablist" aria-label="Typy schodísk">
+      {% for t in data.typy %}<button type="button" role="tab" id="tab-{{ t.id }}" aria-controls="panel-{{ t.id }}" aria-selected="{{ 'true' if loop.first else 'false' }}" data-t="{{ t.id }}">{{ t.nazev }}</button>{% endfor %}
+    </div>
+    {% for t in data.typy %}
+    <div class="panel" role="tabpanel" id="panel-{{ t.id }}" aria-labelledby="tab-{{ t.id }}"{% if not loop.first %} hidden{% endif %}>
+      <p class="panel-popis">{{ t.popis }}</p>
+      <ul class="galeria" role="list">
+        {% for i in range(1, t.fotky + 1) %}<li>{{ img(t.id ~ '-' ~ i ~ '.jpg', t.alt, sizes='(min-width: 60rem) 17rem, 50vw') }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="sekce postup-sekcia" id="postup">
+  <div class="wrap">
+    <h2>Od návrhu po montáž</h2>
+    <ol class="stupne" role="list">
+      {% for p in data.postup %}<li class="stupen s{{ loop.index }}">{{ img(p.foto, "Ukážka realizácie schodiska", sizes="(min-width: 52rem) 24rem, 90vw") }}<div class="stupen-text"><h3>{{ p.nazev }}</h3><p>{{ p.popis }}</p></div></li>{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="sekce" id="kalkulacia">
+  <div class="wrap dva">
+    <div>
+      <h2>Kalkulácia schodiska</h2>
+      <p class="uvod">Napíšte nám, kde schodisko potrebujete a aké približne má byť. Ozveme sa s ďalším postupom. Ak máte výkres, fotku priestoru alebo rozmery, pošlite ich e-mailom.</p>
+      <p class="dvere">Vyrábame aj dvere, zárubne a montujeme laminátové plávajúce podlahy.</p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap">
+    <h2>Kontakt</h2>
+    <dl class="kontakt-zoznam">
+      <div><dt>Firma</dt><dd>{{ site.nazev }}<br>IČO {{ site.ico }}</dd></div>
+      <div><dt>Adresa</dt><dd>{{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}</dd></div>
+      <div><dt>Telefón</dt><dd><a href="tel:0902902600">0902 902 600</a><br><a href="tel:0905927295">0905 927 295</a></dd></div>
+      <div><dt>E-mail</dt><dd><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></dd></div>
+    </dl>
+    <p class="doplnok">Ukážkový návrh: fotky pochádzajú z pôvodného webu firmy, texty sú pracovné.</p>
+  </div>
+</section>
+{% endblock %}
